@@ -10,9 +10,9 @@ body {
 
 
 .page-container {
-    padding: 4em  6em;
     justify-content: center;
     align-items: center;
+    padding: 0 ;
 }
 
 /* styling for the links and logo */
@@ -38,19 +38,21 @@ li {
 /* */
 
 
-.header-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-.hero-img-and-information, .page-infoiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 .hero-img-and-information {
-    
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+.hero-img-and-information div{
+    border: 1px solid;
+    padding-bottom: 2em;
+}
+
+.img {
+    width: 100%;
+}
+
+
