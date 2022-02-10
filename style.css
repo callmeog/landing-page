@@ -9,46 +9,85 @@ body {
 }
 
 
-.page-container {
-    justify-content: center;
-    align-items: center;
-    padding: 0 ;
+
+/* header styling for the links and logo */
+
+.hero {
+    background: #1f2937;
+    color: floralwhite;
+    padding: 2em 6em;
 }
 
-/* styling for the links and logo */
+
 li {
     list-style: none;
     display: inline-block;
+    margin: 0 1em;
 }
 
-li {
-    margin: 0 1em;
+hero-text {
+    max-width: 25em;
+}
+
+.top-img {
+    border-radius: 2px;
+    width: 100%;
+    
 }
 
 .header-container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2em ;
 }
 
 .hero-header  {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+button {
+    border: 1px solid;
+    padding: 12px 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    background: #3882f6;
+    color: floralwhite;
+    cursor: pointer;
+}
+
+button:hover,focus {
+    opacity: .7;
+}
+
+/* main content stying*/
+
+.topic {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 2em;
 }
 
 
-/* */
-
-
-
-
 .hero-img-and-information {
-    gap: 10px;
+    gap: 12px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 2em 6em;
 }
 
 .hero-img-and-information div{
     border: 1px solid;
     padding-bottom: 2em;
+    border-radius: 2px;
+}
+
+div article {
+    padding:  3px;
 }
 
 .img {
@@ -56,3 +95,38 @@ li {
 }
 
 
+
+
+
+/* footer styling */
+
+footer {
+    text-align: center;
+}
+
+
+/*for mobile*/
+
+@media screen and (max-width: 900px) {
+    .hero-header {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .hero-button {
+        margin-bottom: 1em;
+    }
+
+
+    .hero {
+        padding: 30px 20px;
+    }
+
+
+    .hero-img-and-information {
+        gap: 12px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 20px;
+    }
+}
