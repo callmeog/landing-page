@@ -99,14 +99,48 @@ div article {
     width: 100%;
 }
 
+.quote {
+    background: #e5e7eb;
+    padding: 7em 10em;
+}
+
+.text-quote {
+    max-width: 40em;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.call-to-action {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 5em 10em;
+    background: #3882f6;
+    color: white;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+}
 
 
+.call-to-action-btn {
+    border: 2px solid white;
+}
+
+.call-to-action-sub-heading {
+    font-weight: bold;
+    font-size: 24px;
+}
 
 
 /* footer styling */
 
 footer {
     text-align: center;
+    background: #1f2937;
+    color: white;
+    padding: 3em
 }
 
 
@@ -115,7 +149,7 @@ footer {
 @media screen and (max-width: 900px) {
     .hero-header {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .hero-button {
@@ -141,5 +175,15 @@ footer {
 
     div article {
         padding:  3px 1px;
+    }
+
+    .quote {
+        background: #e5e7eb;
+        padding: 30px 20px;
+    }
+
+    .call-to-action {
+        margin: 3em 1em;
+      
     }
 }
