@@ -27,7 +27,7 @@ a {
 li {
     list-style: none;
     display: inline-block;
-    margin: 0 1em;
+    margin: 0 5px;
 }
 
 hero-text {
