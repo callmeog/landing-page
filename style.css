@@ -15,11 +15,12 @@ body {
 .hero {
     background: #1f2937;
     color: floralwhite;
-    padding: 2em 6em;
+    padding: 1em;
 }
 
 h1 {
-    margin-bottom: 1em;
+    margin-bottom: 18px;
+    font-family: monospace;
 }
 
 a {
@@ -76,7 +77,7 @@ button {
 
 .topic {
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 2em;
 }
@@ -171,7 +172,7 @@ footer {
 
 
     .hero {
-        padding: 30px 5px;
+        padding: 30px 10px;
     }
 
 
@@ -184,6 +185,7 @@ footer {
 
     .hero-img-and-information div{
         border: none;
+        margin: 10px;
     }
 
     div article {
@@ -204,11 +206,12 @@ footer {
     position: absolute;
 }
 
+
 .header-container {
     text-align: center;
+    align-items: center;
     justify-content: center;
     display: block;
-    align-items: center;
 }
 
 h1 {
@@ -218,5 +221,6 @@ h1 {
 li {
     margin: 1.5em;
 }
+
 
 }
