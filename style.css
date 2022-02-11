@@ -158,7 +158,7 @@ footer {
 
 /*for mobile*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .hero-header {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
