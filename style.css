@@ -18,6 +18,9 @@ body {
     padding: 2em 6em;
 }
 
+h1 {
+    margin-bottom: 1em;
+}
 
 a {
     text-decoration: none;
@@ -27,7 +30,7 @@ a {
 li {
     list-style: none;
     display: inline-block;
-    margin: 2em ;
+    margin: 1em;
     font-weight: bold;
 }
 
@@ -205,6 +208,14 @@ footer {
     justify-content: center;
     display: block;
     align-items: center;
+}
+
+h1 {
+    margin-left: 1.5em;
+}
+
+li {
+    margin: 10px;
 }
 
 
