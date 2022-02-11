@@ -15,7 +15,7 @@ body {
 .hero {
     background: #1f2937;
     color: floralwhite;
-    padding: 1em;
+    padding: 1em 2em;
 }
 
 h1 {
@@ -31,7 +31,7 @@ a {
 li {
     list-style: none;
     display: inline-block;
-    margin: 1em;
+    margin: 10px;
     font-weight: bold;
 }
 
@@ -219,7 +219,7 @@ h1 {
 }
 
 li {
-    margin: 1.5em;
+    margin: 15px 7px;
 }
 
 
