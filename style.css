@@ -27,7 +27,12 @@ a {
 li {
     list-style: none;
     display: inline-block;
-    margin: 0 5px;
+    margin: 2em ;
+    font-size: 18px;
+}
+
+a:hover {
+    color:#3882f6
 }
 
 hero-text {
@@ -109,12 +114,14 @@ div article {
  cite {
     right: 38em;
     position: absolute;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .call-to-action {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 5em 10em;
+    margin: 7em 10em;
     background: #3882f6;
     color: white;
     padding: 2em;
@@ -141,7 +148,8 @@ footer {
     text-align: center;
     background: #1f2937;
     color: white;
-    padding: 3em
+    padding: 1em;
+    margin-top: 2em;
 }
 
 
@@ -193,7 +201,10 @@ footer {
 }
 
 .header-container {
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    align-items: center;
 }
 
 
