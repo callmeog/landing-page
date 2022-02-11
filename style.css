@@ -64,10 +64,6 @@ button {
     cursor: pointer;
 }
 
-button:hover,focus {
-    opacity: .7;
-}
-
 /* main content stying*/
 
 .topic {
@@ -79,20 +75,19 @@ button:hover,focus {
 
 
 .hero-img-and-information {
-    gap: 12px;
     display: grid;
+    gap: 12px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 2em 6em;
 }
 
 .hero-img-and-information div{
-    border: 1px solid indigo;
     padding-bottom: 2em;
     border-radius: 2px;
 }
 
 div article {
-    padding:  3px;
+    padding: 10px .9px;
 }
 
 .img {
@@ -101,13 +96,19 @@ div article {
 
 .quote {
     background: #e5e7eb;
-    padding: 7em 10em;
+    padding: 7em 2em;
+    justify-content: center;
 }
 
 .text-quote {
     max-width: 40em;
     line-height: 1.4;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+ cite {
+    right: 38em;
+    position: absolute;
 }
 
 .call-to-action {
@@ -149,7 +150,7 @@ footer {
 @media screen and (max-width: 900px) {
     .hero-header {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
     .hero-button {
@@ -178,12 +179,22 @@ footer {
     }
 
     .quote {
-        background: #e5e7eb;
-        padding: 30px 20px;
+        padding: 40px 5px;
     }
 
     .call-to-action {
-        margin: 3em 1em;
-      
+        margin: 2em 1em;
     }
+
+
+ cite {
+    right: 4em;
+    position: absolute;
+}
+
+.header-container {
+    justify-content: space-between;
+}
+
+
 }
